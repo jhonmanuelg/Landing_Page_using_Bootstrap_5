@@ -5,6 +5,38 @@
     --bs-body-font-family: 'Montserrat', san-serif;
 }
 
+a{
+    color: var(--primary-color);
+}
+a:hover{
+    color: var(--primary-color);
+}
+/* Main  header*/
 .header{
     z-index: 2;
 }
+
+/* Flyout Navigation bar*/
+#navbar{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(208, 176, 168, 0.6);
+  z-index: 4;
+}
+
+.dropdown-nav_closeNavBtn{
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    background-color: rgbA(255, 255,255, 0.4);
+    
+}
+
+.dropdown-nav_continer{
+    height: 100vh;
+    padding: 0 1rem;
+}
+
