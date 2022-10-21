@@ -38,16 +38,19 @@ a:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgb(208, 176, 168, 0.6);
+    background-color: rgba(27, 26, 26, 0.93);
     z-index: 4;
 }
 
 .dropdown-nav_closeNavBtn {
+    color: #a5a4a4;
     position: absolute;
     top: 20px;
-    right: 16px;
-    background-color: rgbA(255, 255, 255, 0.4);
+    right: 16px;   
+}
 
+.dropdown-nav_closeNavBtn:hover{
+    color: #ffffff;
 }
 
 .dropdown-nav_continer {
@@ -150,8 +153,11 @@ a:hover {
 
 .steps--background {
     background-color: #ffffff;
-    
 }
+
+/* Footer */
+
+
 
 
 
@@ -197,14 +203,3 @@ a:hover {
     }
 }
 
-/* 
-
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-
-*/
