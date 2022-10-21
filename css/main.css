@@ -1,12 +1,12 @@
 :root {
     --primary-color: #0a1118;
     --primary-color-highight: #233D54;
-    --bs-body-bg: #88909a;
+    --bs-body-bg: #aba7a3;
     --bs-light: #c1c0c0;
     --bs-body-font-family: 'Montserrat', san-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -131,12 +131,27 @@ a:hover {
     }
 }
 
+/* Staps Section */
+.steps {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.steps_section-thumbnail {
+    height: 240px;
+    object-fit: cover;
+    margin: 0 auto;
+}
 
+.stesp_content-width {
+    max-width: 456px;
+    margin: 0 auto;
+}
 
-
-
-
+.steps--background {
+    background-color: #ffffff;
+    
+}
 
 
 
@@ -171,9 +186,19 @@ a:hover {
     }
 }
 
+@media (min-width: 576px) {
+    .steps {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .steps_section-thumbnail {
+        height: auto;
+    }
+}
 
 /* 
-@media (min-width: 576px) { ... }
+
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
