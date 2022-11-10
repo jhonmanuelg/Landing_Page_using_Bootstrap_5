@@ -32,47 +32,39 @@ a:hover {
 }
 
 /* Flyout Navigation bar*/
-.dropdown-nav_container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-.navbar_card{   
-    width: 270px;
-    margin: auto;
-}
-
-.navbar_card:hover{    
-    box-shadow: 1px 4px 5px var(--bs-body-bg);
-}
-
-
-.img-fluid_nav{
-    width: 250px;
-    height: 200px;
-}
-
-
 #navbar {
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 140px;
-    background-color: rgba(27, 26, 26, 0.93);
+    bottom: 0;
+    background-color: rgba(27, 26, 26, 0.877);
     z-index: 4;
 }
 
+.navbar_card{  
+    padding: 6px;
+    border: 1px solid rgba(248, 247, 246, 0.162); 
+    width: 86%;
+    margin: auto;
+}
+
+.navbar_card:hover{    
+    box-shadow: 2px 4px 8px var(--bs-body-bg);
+}
+
+.img-fluid_nav{
+    width: 100%;
+}
 
 .dropdown-nav_closeNavBtn {
     color: #a5a4a4;
     position: absolute;
     top: 20px;
-    right: 56px;
+    right: 16px;   
 }
 
-.dropdown-nav_closeNavBtn:hover {
+.dropdown-nav_closeNavBtn:hover{
     color: #ffffff;
 }
 
@@ -180,6 +172,10 @@ a:hover {
 /* Footer */
 
 
+
+
+
+
 /*  X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .container-custom {
@@ -219,13 +215,5 @@ a:hover {
     .steps_section-thumbnail {
         height: auto;
     }
-
-
 }
 
-@media (width: 576px) {
-    #navbar {
-        width: 100%;
-        bottom: 359px;
-    }
-}
