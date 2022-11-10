@@ -33,6 +33,7 @@ a:hover {
 
 /* Flyout Navigation bar*/
 #navbar {
+    width: 101%;
     position: fixed;
     left: 0;
     right: 0;
